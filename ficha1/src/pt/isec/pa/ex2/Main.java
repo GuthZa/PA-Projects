@@ -1,7 +1,8 @@
 package pt.isec.pa.ex2;
 
 public class Main {
-    private static void main(String[] args) {
-        
+    public static void main(String[] args) {
+        GuessTheNumber guessTheNumber = new GuessTheNumber();
+        guessTheNumber.start();
     }
 }
