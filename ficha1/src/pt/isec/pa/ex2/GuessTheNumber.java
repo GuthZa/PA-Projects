@@ -26,14 +26,13 @@ public class GuessTheNumber {
 
         do {
             System.out.println("I thought of: " + guess);
-            if (scanner.hasNext()) {
+            if (scanner.hasNext())
                 input = scanner.next();
 
-                if (input.equals("sair"))
-                    return;
-            }
-
             switch (input) {
+                case "sair", "SAIR", "exit" -> {
+                    return;
+                }
                 case "maior", "higher", "PENSEI NUM NUMERO MAIOR" -> {
                     lowerBound = guess + 1;
                     guess = getNewNumber();
@@ -56,6 +55,9 @@ public class GuessTheNumber {
     }
 
     private int getNewNumber() {
-        return random.nextInt(upperBound - lowerBound) + lowerBound;
+        //Binary search
+        return (upperBound - lowerBound) / 2 + lowerBound;
+        //Randomized search
+//        return random.nextInt(upperBound - lowerBound) + lowerBound;
     }
 }
