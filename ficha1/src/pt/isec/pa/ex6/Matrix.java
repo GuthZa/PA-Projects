@@ -1,17 +1,16 @@
 package pt.isec.pa.ex6;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Matrix {
     private int[][] matrix;
     public Matrix() {
-        this(3,3);
+        this(3);
     }
 
-    public Matrix(int columns, int rows) {
-        this.matrix = new int[columns][rows];
+    public Matrix(int columns) {
+        this.matrix = new int[columns][columns];
     }
 
     public int[][] getMatrix() {
