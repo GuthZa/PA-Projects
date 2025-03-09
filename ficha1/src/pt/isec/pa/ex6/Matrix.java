@@ -59,12 +59,12 @@ public class Matrix {
 
     public void printMatrix() {
         System.out.println("Matrix:");
-        for (int i = 0; i < matrix.length; i++) {
+        for (int[] ints : matrix) {
             System.out.print("[");
-            for (int j = 0; j < matrix[i].length - 1; j++) {
-                System.out.print(matrix[i][j] + ", ");
+            for (int j = 0; j < ints.length - 1; j++) {
+                System.out.print(ints[j] + ", ");
             }
-            System.out.println(matrix[i][matrix[i].length - 1] + "]");
+            System.out.println(ints[ints.length - 1] + "]");
         }
     }
 }
