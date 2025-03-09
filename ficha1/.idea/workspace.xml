@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37002a52-6285-4a1e-b7c1-7112deeeb2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/ex5/Totoloto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/ex5/utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/ex6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/ex6/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/isec/pa/ex5/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/isec/pa/ex5/Bet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/isec/pa/ex5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/isec/pa/ex5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ex5">
+  <component name="RunManager" selected="Application.Ex6">
     <configuration name="Ex1" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -97,7 +95,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex6" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pt.isec.pa.ex6.Main" />
+      <module name="ficha1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Ex6" />
       <item itemvalue="Application.Ex1" />
       <item itemvalue="Application.Ex2" />
       <item itemvalue="Application.Ex3" />
@@ -113,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741513610667</updated>
-      <workItem from="1741513611946" duration="14286000" />
+      <workItem from="1741513611946" duration="16622000" />
     </task>
     <servers />
   </component>
