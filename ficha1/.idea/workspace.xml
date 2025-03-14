@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37002a52-6285-4a1e-b7c1-7112deeeb2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/ex8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/ex8/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/hangman/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/hangman/model/HangmanGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/hangman/model/HangmanModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/hangman/ui/HangmanUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/hangman/utils/HangmanDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/library/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/library/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/library/model/ILibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/library/model/LibraryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/library/model/LibrarySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/library/ui/LibraryUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/library/utils/PAInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.LIbrary.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -64,7 +76,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex7">
+  <component name="RunManager" selected="Application.LIbrary">
     <configuration name="Ex1" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,9 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LIbrary" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="pt.isec.pa.library.Main" />
+      <module name="ficha1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Ex6" />
       <item itemvalue="Application.Ex7" />
+      <item itemvalue="Application.LIbrary" />
       <item itemvalue="Application.Ex1" />
       <item itemvalue="Application.Ex2" />
       <item itemvalue="Application.Ex3" />
@@ -158,6 +178,8 @@
       <workItem from="1741544401261" duration="103000" />
       <workItem from="1741545227601" duration="645000" />
       <workItem from="1741606750019" duration="941000" />
+      <workItem from="1741948825962" duration="8019000" />
+      <workItem from="1741968715728" duration="677000" />
     </task>
     <servers />
   </component>
