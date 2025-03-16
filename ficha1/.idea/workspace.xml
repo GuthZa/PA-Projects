@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37002a52-6285-4a1e-b7c1-7112deeeb2fb" name="Changes" comment="Finish hangman">
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/pascaltriangle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pt/isec/pa/pascaltriangle/PascalTriangle.java" afterDir="false" />
+    <list default="true" id="37002a52-6285-4a1e-b7c1-7112deeeb2fb" name="Changes" comment="Finish Report exercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/isec/pa/library/model/LibraryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/isec/pa/library/model/LibraryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/isec/pa/report/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/isec/pa/report/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt/isec/pa/report/ui/ReportUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt/isec/pa/report/ui/ReportUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,9 @@
     &quot;accountId&quot;: &quot;41930a5f-e347-48d2-bf8c-69092b7035c4&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -69,6 +71,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pt.isec.pa.report.utils" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.PascalTriangle">
     <configuration name="Ex1" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
@@ -192,6 +199,7 @@
       <workItem from="1742035645176" duration="10742000" />
       <workItem from="1742055963168" duration="2495000" />
       <workItem from="1742114632878" duration="596000" />
+      <workItem from="1742123842419" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="Finish hangman">
       <option name="closed" value="true" />
@@ -201,7 +209,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742046061846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish Pascal Triangle (ex9)">
+      <option name="closed" value="true" />
+      <created>1742124140412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742124140412</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Start Report exercise (11)">
+      <option name="closed" value="true" />
+      <created>1742124187239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742124187239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finish Report exercise">
+      <option name="closed" value="true" />
+      <created>1742126965789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742126965789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +241,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish hangman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish hangman" />
+    <MESSAGE value="Finish Pascal Triangle (ex9)" />
+    <MESSAGE value="Start Report exercise (11)" />
+    <MESSAGE value="Finish Report exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Report exercise" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
