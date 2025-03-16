@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LibraryList implements ILibrary {
-    private List<Book> books;
+    private final List<Book> books;
     private String name;
 
     public LibraryList(String name) {
@@ -45,7 +45,7 @@ public class LibraryList implements ILibrary {
 
     @Override
     public Book findBook(int id) throws CloneNotSupportedException {
-        //We don't use indexOf because it expects a book
+        //We don't use indexOf because it expects a book,
         // and we don't have a book
         for (Book book : books)
             if (book.getId() == id)
