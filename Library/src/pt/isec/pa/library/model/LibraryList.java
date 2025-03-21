@@ -1,30 +1,19 @@
 package pt.isec.pa.library.model;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
-public class LibraryList implements ILibrary {
-    private String name;
+public class LibraryList extends Library {
     private final List<Book> books;
 
     public LibraryList(String name) {
-        this.name = name;
+        super(name);
         books = new ArrayList<>();
     }
 
     @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public int addBook(String title, List<String> authors) {
-        Book newBook = new Book(title,authors);
+    int addBook(Book newBook) {
         if (books.contains(newBook))
             return -1;
         books.add(newBook);
@@ -32,6 +21,12 @@ public class LibraryList implements ILibrary {
     }
 
     @Override
+    Collection<Book> getBooks() {
+        return books;
+    }
+
+    //Já estão implementado na class base Library
+/*    @Override
     public Book findBook(String title) throws CloneNotSupportedException {
         Book tempBook = new Book(title,List.of());
         int index = books.indexOf(tempBook);
@@ -69,4 +64,5 @@ public class LibraryList implements ILibrary {
             output.append(String.format("  - %s\n",book));
         return output.toString();
     }
+ */
 }

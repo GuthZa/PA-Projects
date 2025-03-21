@@ -6,12 +6,10 @@ public class RecentBook extends Book {
     private String ISBN;
     private double price;
 
-    public RecentBook(String title, List<String> author) {
+    public RecentBook(String title, List<String> author, String ISBN, double price) {
         super(title, author);
-    }
-
-    public RecentBook(String title, String... authors) {
-        super(title, authors);
+        this.ISBN = ISBN;
+        this.price = price;
     }
 
     public String getISBN() {
@@ -28,5 +26,12 @@ public class RecentBook extends Book {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "-RecentBook- " + super.toString() +
+                ", ISBN=" + ISBN +
+                ", price=" + price;
     }
 }

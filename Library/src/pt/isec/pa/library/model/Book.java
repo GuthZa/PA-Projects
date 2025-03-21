@@ -1,8 +1,10 @@
 package pt.isec.pa.library.model;
 
+import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 
-public class Book implements Cloneable {
+public class Book implements Cloneable, Comparable<Book> {
     private static int counter = 0;
 
     public static int getNewId() {
@@ -13,14 +15,14 @@ public class Book implements Cloneable {
     private String title;
     private List<String> authors;
 
-    public Book(String title, List<String> authors) {
+    protected Book(String title, List<String> authors) {
         this.id = getNewId();
         this.title = title;
         this.authors = List.copyOf(authors);
     }
 
     //optional
-    public Book(String title, String... authors) {
+    protected Book(String title, String... authors) {
         this.id = getNewId();
         this.title = title;
         this.authors = List.of(authors);
@@ -57,9 +59,10 @@ public class Book implements Cloneable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+//        if (o == null || getClass() != o.getClass()) return false;
 
-        Book book = (Book) o;
+//        Book book = (Book) o;
+        if (!(o instanceof Book book)) return false;
         return title.equalsIgnoreCase(book.title);
     }
 
@@ -71,8 +74,27 @@ public class Book implements Cloneable {
     @Override
     protected Book clone() throws CloneNotSupportedException {
         Book newBook = (Book) super.clone();
-        //newBook.id = getNewId(); // ????
         newBook.authors = List.copyOf(authors);
         return newBook;
+    }
+
+    @Override
+    public int compareTo(Book o) {
+        return title.toLowerCase().compareTo(o.title.toLowerCase());
+    }
+}
+
+class BookComparator implements Comparator<Book> {
+    @Override
+    public int compare(Book o1, Book o2) {
+        return o1.getTitle().compareTo(o2.getTitle());
+    }
+}
+
+class BookComparatorIgnoreCase implements Comparator<Book> {
+    @Override
+    public int compare(Book o1, Book o2) {
+        return o1.getTitle().toLowerCase()
+                .compareTo(o2.getTitle().toLowerCase());
     }
 }
