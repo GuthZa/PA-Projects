@@ -1,8 +1,8 @@
-package pt.isec.pa.library_base;
+package pt.isec.pa.library;
 
-import pt.isec.pa.library_base.model.ILibrary;
-import pt.isec.pa.library_base.model.LibraryList;
-import pt.isec.pa.library_base.ui.LibraryUI;
+import pt.isec.pa.library.model.ILibrary;
+import pt.isec.pa.library.model.LibraryList;
+import pt.isec.pa.library.ui.LibraryUI;
 
 public class MainList {
     public static void main(String[] args) throws CloneNotSupportedException {

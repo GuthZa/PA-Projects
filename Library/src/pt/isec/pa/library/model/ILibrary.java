@@ -1,6 +1,6 @@
-package pt.isec.pa.library_base.model;
+package pt.isec.pa.library.model;
 
-import pt.isec.pa.library_base.model.Book;
+import pt.isec.pa.library.model.Book;
 
 import java.util.List;
 

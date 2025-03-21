@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37002a52-6285-4a1e-b7c1-7112deeeb2fb" name="Changes" comment="Fix imports to library_base, instead of the library package">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="37002a52-6285-4a1e-b7c1-7112deeeb2fb" name="Changes" comment="Send project to other folder">
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/MainList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/MainMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/MainSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/ILibrary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/LibraryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/LibraryMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/LibrarySet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/OldBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/RecentBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/ui/LibraryUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/ui/PAInput.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +236,7 @@
       <workItem from="1742055963168" duration="2495000" />
       <workItem from="1742114632878" duration="596000" />
       <workItem from="1742123842419" duration="3042000" />
-      <workItem from="1742552968248" duration="2027000" />
+      <workItem from="1742552968248" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="Finish hangman">
       <option name="closed" value="true" />
@@ -275,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742554237984</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Send project to other folder">
+      <option name="closed" value="true" />
+      <created>1742555128399</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742555128399</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +307,8 @@
     <MESSAGE value="Finish Report exercise" />
     <MESSAGE value="Add base library from inforestudante, to start from the same basis" />
     <MESSAGE value="Fix imports to library_base, instead of the library package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix imports to library_base, instead of the library package" />
+    <MESSAGE value="Send project to other folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Send project to other folder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

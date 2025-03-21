@@ -1,4 +1,4 @@
-package pt.isec.pa.library_base.model;
+package pt.isec.pa.library.model;
 
 import java.util.HashSet;
 import java.util.List;

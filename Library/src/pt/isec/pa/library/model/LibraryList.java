@@ -1,14 +1,15 @@
-package pt.isec.pa.library_base.model;
+package pt.isec.pa.library.model;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class LibraryMap implements ILibrary {
+public class LibraryList implements ILibrary {
     private String name;
-    private final Map<Integer, Book> books;
+    private final List<Book> books;
 
-    public LibraryMap(String name) {
+    public LibraryList(String name) {
         this.name = name;
-        books = new HashMap<>();
+        books = new ArrayList<>();
     }
 
     @Override
@@ -24,45 +25,48 @@ public class LibraryMap implements ILibrary {
     @Override
     public int addBook(String title, List<String> authors) {
         Book newBook = new Book(title,authors);
-        if (books.containsValue(newBook))
+        if (books.contains(newBook))
             return -1;
-        books.put(newBook.getId(), newBook);
+        books.add(newBook);
         return newBook.getId();
     }
 
     @Override
     public Book findBook(String title) throws CloneNotSupportedException {
-        for(Book book : books.values())
-            if (book.getTitle().equalsIgnoreCase(title))
-                return book.clone();
+        Book tempBook = new Book(title,List.of());
+        int index = books.indexOf(tempBook);
+        if (index>=0)
+            return books.get(index).clone();
         return null;
     }
 
     @Override
     public Book findBook(int id) throws CloneNotSupportedException {
-        Book book = books.get(id);
-        return  book != null ? book.clone() : null;
-
+        for(Book book : books)
+            if (book.getId()==id)
+                return book.clone();
+        return null;
     }
 
     @Override
     public boolean removeBook(String title) {
-        for(Book book : books.values())
-            if (book.getTitle().equalsIgnoreCase(title))
-                return books.remove(book.getId())!=null;
-        return false;
+        return books.remove(new Book(title,List.of()));
     }
 
     @Override
     public boolean removeBook(int id) {
-        return books.remove(id) != null;
+        for(Book book : books)
+            if (book.getId()==id)
+                return books.remove(book);
+        return false;
     }
 
     @Override
     public String toString() {
         StringBuilder output = new StringBuilder();
         output.append(String.format("Library %s:\n",name));
-        for(Book book : books.values())
+        for(Book book : books)
             output.append(String.format("  - %s\n",book));
         return output.toString();
-    }}
+    }
+}

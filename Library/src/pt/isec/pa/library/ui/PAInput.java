@@ -1,4 +1,4 @@
-package pt.isec.pa.library_base.ui;
+package pt.isec.pa.library.ui;
 
 import java.util.Scanner;
 

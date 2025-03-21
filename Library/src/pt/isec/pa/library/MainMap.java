@@ -1,8 +1,8 @@
-package pt.isec.pa.library_base;
+package pt.isec.pa.library;
 
-import pt.isec.pa.library_base.model.ILibrary;
-import pt.isec.pa.library_base.model.LibraryMap;
-import pt.isec.pa.library_base.ui.LibraryUI;
+import pt.isec.pa.library.model.ILibrary;
+import pt.isec.pa.library.model.LibraryMap;
+import pt.isec.pa.library.ui.LibraryUI;
 
 public class MainMap {
     public static void main(String[] args) throws CloneNotSupportedException {

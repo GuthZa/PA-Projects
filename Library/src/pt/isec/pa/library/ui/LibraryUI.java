@@ -1,7 +1,7 @@
-package pt.isec.pa.library_base.ui;
+package pt.isec.pa.library.ui;
 
-import pt.isec.pa.library_base.model.Book;
-import pt.isec.pa.library_base.model.ILibrary;
+import pt.isec.pa.library.model.Book;
+import pt.isec.pa.library.model.ILibrary;
 
 import java.util.ArrayList;
 
