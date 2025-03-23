@@ -62,6 +62,9 @@ public class Book implements Cloneable, Comparable<Book> {
 //        if (o == null || getClass() != o.getClass()) return false;
 
 //        Book book = (Book) o;
+        //Tem de ser usado o instanceOf, para ver a class de base
+        //Ex.: 1 RecentBook é igual a um OldBook se tiverem o mesmo titulo
+        //mas se for usador o .getClass(), já não dá, pq são de classes diferentes
         if (!(o instanceof Book book)) return false;
         return title.equalsIgnoreCase(book.title);
     }
