@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37002a52-6285-4a1e-b7c1-7112deeeb2fb" name="Changes" comment="Send project to other folder">
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/MainList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/MainMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/MainSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/ILibrary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/LibraryList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/LibraryMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/LibrarySet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/OldBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/model/RecentBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/ui/LibraryUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Library/src/library_base/ui/PAInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +59,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Wisura/Desktop/Classes/PA/TOREMOVE&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code_Projects/Java/PA-Projects/ficha1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -213,8 +202,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -237,6 +226,17 @@
       <workItem from="1742114632878" duration="596000" />
       <workItem from="1742123842419" duration="3042000" />
       <workItem from="1742552968248" duration="2159000" />
+      <workItem from="1742812350207" duration="369000" />
+      <workItem from="1743159845371" duration="710000" />
+      <workItem from="1743163148613" duration="501000" />
+      <workItem from="1743164972537" duration="10000" />
+      <workItem from="1743180781669" duration="143000" />
+      <workItem from="1743247277567" duration="8000" />
+      <workItem from="1743247427030" duration="2116000" />
+      <workItem from="1743260822663" duration="594000" />
+      <workItem from="1743851639399" duration="25000" />
+      <workItem from="1743944176933" duration="25000" />
+      <workItem from="1744221744382" duration="835000" />
     </task>
     <task id="LOCAL-00001" summary="Finish hangman">
       <option name="closed" value="true" />
